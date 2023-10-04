@@ -27,16 +27,6 @@ module.exports = withNextra({
         destination: "/faq/getting-started",
         statusCode: 301,
       },
-      {
-        source: "/faq",
-        destination: "/faq/getting-started",
-        statusCode: 302,
-      },
-      {
-        source: "/examples",
-        destination: "/examples/basic",
-        statusCode: 302,
-      },
     ];
   },
   reactStrictMode: true,
